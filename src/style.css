@@ -1,0 +1,25 @@
+* {
+  font-family: PingFang SC, sans-serif;
+}
+
+.container {
+  border-image: linear-gradient(#0003, #000) /* your gradient here */ 50%/50%; /* no need to touch this, we always want 50% of slice and border-width */
+}
+
+/* Let's suppose you cannot modify the code below
+and you cannot use pseudo element */
+.container {
+  height: 100vh;
+  background: url(/bg.jpg) center/cover;
+  display: grid;
+  place-content: center;
+  font-family: sans-serif;
+  font-size: 30px;
+  color: #fff;
+}
+
+*,
+body {
+  margin: 0;
+  padding: 0;
+}
